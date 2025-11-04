@@ -1,2 +1,2 @@
 
-Repositório destinado à disciplina de Programação Web 1.
+Repositório destinado à disciplina de Programação Web 2.
