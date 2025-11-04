@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #cfd2e1; /* igual à tela de login */
+  background-color: #cfd2e1; 
 }
 
 .register-box form {
@@ -47,7 +47,7 @@
   width: 40%;
   transition: background 0.2s;
   display: block;
-  margin: 10px auto; /* ← centraliza o botão */
+  margin: 10px auto; 
 }
 
 
