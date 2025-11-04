@@ -8,9 +8,9 @@ export default function CommentsSection({ postId }) {
   const [page, setPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
   const [user, setUser] = useState(null);
-  const [confirmDelete, setConfirmDelete] = useState(null); // 🔹 controla modal de confirmação
+  const [confirmDelete, setConfirmDelete] = useState(null); 
 
-  // 🔹 Carrega comentários e usuário logado
+
   useEffect(() => {
     async function fetchComments() {
       try {
@@ -27,7 +27,7 @@ export default function CommentsSection({ postId }) {
     fetchComments();
   }, [postId, page]);
 
-  // 🔹 Adiciona novo comentário
+  
   async function handleComment(e) {
     e.preventDefault();
     if (!newComment.trim()) return;
@@ -44,17 +44,15 @@ export default function CommentsSection({ postId }) {
     }
   }
 
-  // 🔹 Confirmar exclusão (abre modal)
+  
   function openConfirmDelete(id) {
     setConfirmDelete(id);
   }
 
-  // 🔹 Cancelar exclusão
   function cancelDelete() {
     setConfirmDelete(null);
   }
 
-  // 🔹 Excluir comentário
   async function handleDeleteComment() {
     if (!confirmDelete) return;
 
@@ -155,3 +153,4 @@ export default function CommentsSection({ postId }) {
     </div>
   );
 }
+
