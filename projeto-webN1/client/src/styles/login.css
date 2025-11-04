@@ -9,23 +9,21 @@ body{
 
 }
 
-/* Caixa do login */
 .login-box {
-  background-color: #1f2345; /* cor escura */
+  background-color: #1f2345; 
   padding: 40px;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   width: 320px;
 }
 
-/* Formulário */
+
 .login-form {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-/* Título */
 .login-title {
   color: white;
   text-align: center;
@@ -33,7 +31,6 @@ body{
   margin-bottom: 10px;
 }
 
-/* Inputs */
 .login-form input {
   padding: 10px;
   border-radius: 6px;
@@ -46,7 +43,7 @@ body{
   box-shadow: 0 0 0 2px #5671ff;
 }
 
-/* Botão */
+
 .login-form button {
   background-color: #5671ff;
   color: white;
@@ -62,7 +59,7 @@ body{
   background-color: #4358cc;
 }
 
-/* Texto inferior */
+
 .signup-text {
   color: #bbb;
   font-size: 13px;
@@ -88,7 +85,7 @@ body{
   padding-right: 10px;
 }
 
-/* BOTÃO DO OLHO (ícone) */
+
 .toggle-password {
   position: absolute;
   right: 10px;
@@ -158,5 +155,6 @@ body{
 .error-text.fade-out {
   opacity: 0;
 }
+
 
 
