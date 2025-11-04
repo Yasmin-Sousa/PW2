@@ -21,10 +21,5 @@ Frontend:
 **React Router DOM (v6.23.x)** — controle de rotas entre páginas.  
 **CSS3** — estilização dos componentes e telas.
 
-Estrutura e Organização:
-Arquitetura modular com separação de rotas, middlewares e lógica de negócio.  
-Integração entre frontend e backend via API REST.  
-Paginação e exclusão com confirmação visual nos comentários e posts.  
-Validação de entradas e autenticação segura.
 
 
