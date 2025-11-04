@@ -1,4 +1,4 @@
-# Projeto N1- Programação Web 2
+# Projeto N1
 Descrição do projeto proposto: Construir um pequeno blog com autenticação básica, onde os usuários podem criar posts e comentários.
 
 Tecnologias Utilizadas:
@@ -20,6 +20,7 @@ Frontend:
 **Axios (v1.7.x)** — cliente HTTP para requisições à API.  
 **React Router DOM (v6.23.x)** — controle de rotas entre páginas.  
 **CSS3** — estilização dos componentes e telas.
+
 
 
 
