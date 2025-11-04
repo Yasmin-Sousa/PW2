@@ -1,5 +1,5 @@
-# Projeto N1- Programação Web 2🪻
-### Descrição do projeto proposto: Construir um pequeno blog com autenticação básica, onde os usuários podem criar posts e comentários.
+# Projeto N1- Programação Web 2
+Descrição do projeto proposto: Construir um pequeno blog com autenticação básica, onde os usuários podem criar posts e comentários.
 
 # Tecnologias Utilizadas:
 
@@ -26,3 +26,4 @@
 - Integração entre frontend e backend via API REST.  
 - Paginação e exclusão com confirmação visual nos comentários e posts.  
 - Validação de entradas e autenticação segura.
+
