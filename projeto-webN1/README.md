@@ -1,7 +1,7 @@
 # Projeto N1
 Descrição do projeto proposto: Construir um pequeno blog com autenticação básica, onde os usuários podem criar posts e comentários.
 
-##Tecnologias Utilizadas##:
+##Tecnologias Utilizadas:
 Node.js (v20.x) — ambiente de execução JavaScript no servidor.
 
 Express.js (v4.19.x) — framework para criação de APIs REST.
@@ -19,5 +19,6 @@ dotenv (v16.4.x) — gerenciamento de variáveis de ambiente.
 cors (v2.8.x) — controle de acesso entre domínios (CORS).
 
 nodemon (v3.1.x) — reinicialização automática do servidor em ambiente de desenvolvimento.
+
 
 
