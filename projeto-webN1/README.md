@@ -1,26 +1,22 @@
 # Projeto N1
 Descrição do projeto proposto: Construir um pequeno blog com autenticação básica, onde os usuários podem criar posts e comentários.
 
-Tecnologias Utilizadas:
+*Tecnologias Utilizadas*:
+Node.js (v20.x) — ambiente de execução JavaScript no servidor.
 
-Backend:
-**Node.js (v20.x)** — ambiente de execução JavaScript no servidor.  
-**Express.js (v4.19.x)** — framework para criação de APIs REST.  
-**Prisma ORM (v5.17.x)** — ferramenta para manipulação do banco de dados.  
-**PostgreSQL (v15.x)** — banco de dados relacional.  
-**JWT - jsonwebtoken (v9.0.x)** — autenticação baseada em tokens.  
-**cookie-parser (v1.4.x)** — gerenciamento de cookies HTTP-only.  
-**Zod (v3.23.x)** — validação de dados no backend.  
-**dotenv (v16.4.x)** — gerenciamento de variáveis de ambiente.  
-**Nodemon (v3.1.x)** — reinicialização automática em ambiente de desenvolvimento.
+Express.js (v4.19.x) — framework para criação de APIs REST.
 
-Frontend:
-**React.js (v18.3.x)** — biblioteca para criação da interface do usuário.  
-**Vite (v5.2.x)** — ferramenta de build rápida para React.  
-**Axios (v1.7.x)** — cliente HTTP para requisições à API.  
-**React Router DOM (v6.23.x)** — controle de rotas entre páginas.  
-**CSS3** — estilização dos componentes e telas.
+MongoDB (v6.x) — banco de dados NoSQL para armazenamento de usuários, posts e comentários.
 
+Mongoose (v8.x) — ODM (Object Data Modeling) para modelagem e manipulação dos dados no MongoDB.
 
+bcryptjs (v2.4.x) — criptografia de senhas de usuários.
 
+jsonwebtoken (v9.0.x) — autenticação baseada em tokens JWT.
+
+dotenv (v16.4.x) — gerenciamento de variáveis de ambiente.
+
+cors (v2.8.x) — controle de acesso entre domínios (CORS).
+
+nodemon (v3.1.x) — reinicialização automática do servidor em ambiente de desenvolvimento.
 
